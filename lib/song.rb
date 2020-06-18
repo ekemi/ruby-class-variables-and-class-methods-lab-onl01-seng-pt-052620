@@ -10,7 +10,7 @@ def initialize(name,genre,artist)
   @artist = artist
   @@count+=1
   @@genres << @genre
-binding.py
+binding.pry
 end
  def self.count
     @@count
