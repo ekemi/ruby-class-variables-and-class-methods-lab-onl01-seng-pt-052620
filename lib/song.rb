@@ -15,10 +15,8 @@ end
  end
 
  def self.genre
-     @@genres.uniq 
+     @@genres.uniq
  end
 
  def
 end
-
-
