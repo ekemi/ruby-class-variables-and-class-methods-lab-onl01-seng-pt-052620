@@ -44,7 +44,7 @@ def self.artist_count
     if artist_count[key]
       artist_count[key]+=1
     else
-      artist_count[key]=1  
+      artist_count[key]=1
 end
 end
 artist_count
