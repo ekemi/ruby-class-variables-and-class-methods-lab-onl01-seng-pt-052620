@@ -33,7 +33,7 @@ def self.genre_count
 
     else
       @@genres[key] =[]
-      @@genres[key] <<valueend
+      @@genres[key] <<value
     end
 end
 end
