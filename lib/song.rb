@@ -26,15 +26,16 @@ end
 #binding.pry
 
 def self.genre_count
-  @@genres.each do |key, count|
-       ccount =1
-    if @@genres[key].include?(key)
-      @@genres[key] <<count
-       count += 1
+
+  genre_count = {}
+  @@genres.each do |key|
+       
+    if genre_count[key]
+        genre_count[key]+=1
     else
-      @@genres[key] =[]
-      @@genres[key] <<count
+      genre_count [key] =1
     end
 end
+genre_count
 end
 end
