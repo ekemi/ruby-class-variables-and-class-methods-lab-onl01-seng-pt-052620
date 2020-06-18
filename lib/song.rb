@@ -1,3 +1,4 @@
+requir 'pry'
 class Song
  attr_accessor :name,:artist,:genre
  @@count = 0
@@ -9,7 +10,7 @@ def initialize(name,genre,artist)
   @artist = artist
   @@count+=1
   @@genres << @genre
-
+binding.py
 end
  def self.count
     @@count
