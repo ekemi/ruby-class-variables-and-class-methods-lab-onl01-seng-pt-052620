@@ -26,11 +26,11 @@ end
 #binding.pry
 
 def self.genre_count
-  @@genres.each do |key, value|
+  @@genres.each do |key, count|
        ccount =1
     if @@genres[key].include?(key)
       @@genres[key] <<count
-       count = 1
+       count += 1
     else
       @@genres[key] =[]
       @@genres[key] <<count
