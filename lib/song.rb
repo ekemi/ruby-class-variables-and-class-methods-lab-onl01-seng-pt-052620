@@ -40,7 +40,7 @@ genre_count
 end
 def self.artist_count
   artist_count ={}
-  @@artist.each do|key|
+  @@artists.each do|key|
     if artist_count[key]
       artist_count[key]+=1
     else
