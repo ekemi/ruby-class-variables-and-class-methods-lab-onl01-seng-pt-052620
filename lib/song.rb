@@ -27,13 +27,13 @@ end
 
 def self.genre_count
   @@genres.each do |key, value|
-
+       ccount =1
     if @@genres[key].include?(key)
-      @@genres[key] << value + 1
-
+      @@genres[key] <<count
+       count = 1
     else
       @@genres[key] =[]
-      @@genres[key] <<value
+      @@genres[key] <<count
     end
 end
 end
