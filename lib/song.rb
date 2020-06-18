@@ -14,7 +14,7 @@ end
  def self.count
     @@count
  end
-  
+
  def self.genres
      @@genres.uniq
  end
