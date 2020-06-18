@@ -23,7 +23,18 @@ end
 def self.artists
   @@artists.uniq
 end
-binding.pry
+#binding.pry
 
-#def self.genre_count
+def self.genre_count
+  @@genres.each do |key, value|
+
+    if @@genres[key].include?(key)
+      @@genres[key] << value + 1
+
+    else
+      @@genres[key] =[]
+      @@genres[key] <<valueend
+    end
+end
+end
 end
